@@ -1,0 +1,45 @@
+.food-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .food-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .food-item h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .food-item p {
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .food-item button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .food-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .food-item:hover {
+    transform: scale(1.05);
+  }
+  
